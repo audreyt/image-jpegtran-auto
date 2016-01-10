@@ -7,7 +7,7 @@ use Image::JpegTran qw(jpegtran);
 use File::Temp qw(:POSIX);
 use File::Copy qw(copy);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 our @ISA = qw(Exporter);
 our @EXPORT = qw(auto_rotate);
 
@@ -70,7 +70,7 @@ L<http://sylvana.net/jpegcrop/exif_orientation.html>
 
 =head1 AUTHORS
 
-唐鳳 E<lt>cpan@audreyt.orgE<gt>
+Audrey Tang E<lt>cpan@audreyt.orgE<gt>
 
 =head1 CC0 1.0 Universal
 

@@ -14,21 +14,21 @@ Image::JpegTran::AutoRotate - Losslessly fix JPEG orientation
 Transforms JPEG files so that orientation becomes 1.
 
 This is the same operation as `exifautotran`, but with no dependencies on
-command-line programs; instead, we use the excellent [Image::JpegTran](http://search.cpan.org/perldoc?Image::JpegTran) and
-[Image::ExifTool](http://search.cpan.org/perldoc?Image::ExifTool) CPAN modules.
+command-line programs; instead, we use the excellent [Image::JpegTran](https://metacpan.org/pod/Image::JpegTran) and
+[Image::ExifTool](https://metacpan.org/pod/Image::ExifTool) CPAN modules.
 
 # SEE ALSO
 
-[http://sylvana.net/jpegcrop/exif\_orientation.html](http://sylvana.net/jpegcrop/exif\_orientation.html)
+[http://sylvana.net/jpegcrop/exif\_orientation.html](http://sylvana.net/jpegcrop/exif_orientation.html)
 
 # AUTHORS
 
-唐鳳 <cpan@audreyt.org>
+Audrey Tang &lt;cpan@audreyt.org>
 
 # CC0 1.0 Universal
 
 To the extent possible under law, 唐鳳 has waived all copyright and related
-or neighboring rights to [Image::JpegTran::AutoRotate](http://search.cpan.org/perldoc?Image::JpegTran::AutoRotate).
+or neighboring rights to [Image::JpegTran::AutoRotate](https://metacpan.org/pod/Image::JpegTran::AutoRotate).
 
 This work is published from Taiwan.
 
