@@ -11,6 +11,7 @@ check_lib_or_exit(
     lib     => 'jpeg',
     libpath => [ grep length, split /\s+/,$Config::Config{libsdirs} ],
     incpath => [ Cwd::cwd(), grep length, split /\s+/,$Config::Config{locincpth} ],
+    header  => [['"jinclude.h"','<jpeglib.h>']],
     define0 => "#define JPEG_INTERNALS\n",
     define  => "#if JPEG_LIB_VERSION < 80\n#error jpeglib version >= 80 required\n#endif",
 );
