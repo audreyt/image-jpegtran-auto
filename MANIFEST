@@ -1,10 +1,10 @@
 Changes
 Image-JpegTran/Changes
+Image-JpegTran/inc/Devel/CheckLib.pm
 Image-JpegTran/jinclude.h
 Image-JpegTran/jpegint.h
 Image-JpegTran/JpegTran.xs
 Image-JpegTran/lib/Image/JpegTran.pm
-Image-JpegTran/Makefile
 Image-JpegTran/Makefile.PL
 Image-JpegTran/MANIFEST
 Image-JpegTran/MANIFEST.SKIP

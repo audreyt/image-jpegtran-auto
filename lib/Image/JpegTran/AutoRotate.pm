@@ -7,7 +7,7 @@ use Image::JpegTran qw(jpegtran);
 use File::Temp qw(:POSIX);
 use File::Copy qw(copy);
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 our @ISA = qw(Exporter);
 our @EXPORT = qw(auto_rotate);
 

@@ -23,7 +23,7 @@ command-line programs; instead, we use the excellent [Image::JpegTran](https://m
 
 # AUTHORS
 
-Audrey Tang &lt;cpan@audreyt.org>
+Audrey Tang <cpan@audreyt.org>
 
 # CC0 1.0 Universal
 
