@@ -21,9 +21,9 @@ sub auto_rotate {
         2 => [flip => 'horizontal'],
         3 => [rotate => 180],
         4 => [flip => 'vertical'],
-        5 => ['transpose'],
+        5 => ['transpose' => 1],
         6 => [rotate => 90],
-        7 => ['transverse'],
+        7 => ['transverse' => 1],
         8 => [rotate => 270]
     );
     my $transform = $TransformMap{$orientation} or return -1;
