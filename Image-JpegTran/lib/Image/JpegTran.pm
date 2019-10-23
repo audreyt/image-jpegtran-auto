@@ -46,7 +46,7 @@ Use lossless jpeg transformations, like when using C<jpegtran> utility, from Per
 
 =head1 OPTIONS
 
-=over4
+=over 4
 
 =item copy => 'none'
 
